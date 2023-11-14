@@ -10,4 +10,7 @@ fetch (queryURL)
     console.log(data);
 });
 
-
+var formSubmitHandler = function(event) {
+    event.preventDefault();
+    
+}
